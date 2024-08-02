@@ -1,0 +1,10 @@
+#!name=Bộ sưu tập ứng dụng iTunes
+#!desc=Mở khoá tính năng cao cấp
+# Danh sách : https://appraven.net/collection/77331175
+# Tác giả : https://gist.githubusercontent.com/ddgksf2013/9e0f6c7341beea09a31aa309d9d7f502/raw/buyitunes.js
+
+[Script]
+iTunes = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/9e0f6c7341beea09a31aa309d9d7f502/raw/buyitunes.js
+
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
