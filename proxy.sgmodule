@@ -2,6 +2,9 @@
 #!desc=Kết nối
 #!moduleUrl=https://github.com/alonex101/srg/raw/main/proxy.sgmodule
 
+[Rule]
+FINAL,Proxy
+
 [Proxy]
 🇻🇳 NEW VN1 🔐 = trojan, 103.57.131.45, 443, password=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, skip-cert-verify=true, sni=m.akamai.net
 🇻🇳 NEW VN1 = vmess, 103.57.131.45, 80, username=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, ws=true, ws-path=/vpngiarenet1, ws-headers=Host:"m.akamai.net", vmess-aead=true
