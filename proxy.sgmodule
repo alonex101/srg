@@ -1,0 +1,29 @@
+#!name=VPN Giá Rẻ
+#!desc=Kết nối
+#!moduleUrl=https://github.com/alonex101/srg/raw/main/proxy.sgmodule
+
+[Proxy]
+🇻🇳 NEW VN1 🔐 = trojan, 103.57.131.45, 443, password=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, skip-cert-verify=true, sni=m.akamai.net
+🇻🇳 NEW VN1 = vmess, 103.57.131.45, 80, username=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, ws=true, ws-path=/vpngiarenet1, ws-headers=Host:"m.akamai.net", vmess-aead=true
+🇻🇳 NEW VN2 🔐 = trojan, 103.57.130.103, 443, password=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, skip-cert-verify=true, sni=m.akamai.net
+🇻🇳 NEW VN2 = vmess, 103.57.130.103, 80, username=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, ws=true, ws-path=/vpngiarenet1, ws-headers=Host:"m.akamai.net", vmess-aead=true
+🇻🇳 NEW VN3 🔐 = trojan, 103.57.131.129, 443, password=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, skip-cert-verify=true, sni=m.akamai.net
+🇻🇳 NEW VN3 = vmess, 103.57.131.129, 80, username=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, ws=true, ws-path=/vpngiarenet3, ws-headers=Host:"m.akamai.net", vmess-aead=true
+🇻🇳 NEW VN4 🔐 = trojan, 103.57.130.210, 443, password=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, skip-cert-verify=true, sni=m.akamai.net
+🇻🇳 NEW VN4 = vmess, 103.57.130.210, 80, username=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, ws=true, ws-path=/vpngiarenet4, ws-headers=Host:"m.akamai.net", vmess-aead=true
+🇻🇳 NEW VN5 🔐 = trojan, 103.57.130.245, 443, password=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, skip-cert-verify=true, sni=m.akamai.net
+🇻🇳 NEW VN5 = vmess, 103.57.130.245, 80, username=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, ws=true, ws-path=/vpngiarenet5, ws-headers=Host:"m.akamai.net", vmess-aead=true
+🇻🇳 BETA HN3 = vmess, 103.228.126.93, 80, username=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, ws=true, ws-path=/vpngiare.net, ws-headers=Host:"m.akamai.net", vmess-aead=true
+🇻🇳 BETA HN3 🔐 = trojan, 103.228.126.93, 443, password=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, skip-cert-verify=true, sni=m.akamai.net
+🇻🇳 NVME1 = vmess, 59.153.216.175, 80, username=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, ws=true, ws-path=/vpngiare.net, ws-headers=Host:"m.akamai.net", vmess-aead=true
+🇻🇳 NVME1 🔐 = trojan, 59.153.216.175, 443, password=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, skip-cert-verify=true, sni=m.akamai.net
+🇻🇳 NVME2 = vmess, 59.153.216.176, 80, username=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, ws=true, ws-path=/vpngiare.net, ws-headers=Host:"m.akamai.net", vmess-aead=true
+🇻🇳 NVME2 🔐 = trojan, 59.153.216.176, 443, password=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, skip-cert-verify=true, sni=m.akamai.net
+🇻🇳 NVME3= vmess, 59.153.216.177, 80, username=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, ws=true, ws-path=/vpngiare.net, ws-headers=Host:"m.akamai.net", vmess-aead=true
+🇻🇳 NVME3 🔐 = trojan, 59.153.216.177, 443, password=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, skip-cert-verify=true, sni=m.akamai.net
+🇻🇳 NVME4 = vmess, 59.153.216.178, 80, username=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, ws=true, ws-path=/vpngiare.net, ws-headers=Host:"m.akamai.net", vmess-aead=true
+🇻🇳 NVME4 🔐 = trojan, 59.153.216.178, 443, password=89ddbfd3-9eef-4a9f-a9c9-50562ce5a332, skip-cert-verify=true, sni=m.akamai.net
+
+[Proxy Group]
+Proxy = select, tự động, 🇻🇳 NEW VN1 🔐, 🇻🇳 NEW VN1, 🇻🇳 NEW VN2 🔐, 🇻🇳 NEW VN2, 🇻🇳 NEW VN3 🔐, 🇻🇳 NEW VN3, 🇻🇳 NEW VN4 🔐, 🇻🇳 NEW VN4, 🇻🇳 NEW VN5 🔐, 🇻🇳 NEW VN5, 🍏 BETA HN3, 🍏 BETA HN3 🔐, 🍎 NVME1, 🍎 NVME1 🔐, 🍎 NVME2, 🍎 NVME2 🔐, 🍎 NVME3, 🍎 NVME3 🔐, 🍎 NVME4, 🍎 NVME4 🔐
+tự động = url-test, 🇻🇳 NEW VN1 🔐, 🇻🇳 NEW VN1, 🇻🇳 NEW VN2 🔐, 🇻🇳 NEW VN2, 🇻🇳 NEW VN3 🔐, 🇻🇳 NEW VN3, 🇻🇳 NEW VN4 🔐, 🇻🇳 NEW VN4, 🇻🇳 NEW VN5 🔐, 🇻🇳 NEW VN5, 🍏 BETA HN3, 🍏 BETA HN3 🔐, 🍎 NVME1, 🍎 NVME1 🔐, 🍎 NVME2, 🍎 NVME2 🔐, 🍎 NVME3, 🍎 NVME3 🔐, 🍎 NVME4, 🍎 NVME4 🔐, url=http://www.gstatic.com/generate_204, interval=43200
